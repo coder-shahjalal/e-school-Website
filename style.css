@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-bottom: 50px;
+}
+
+
+h6 {
+  color: #fd511a;
+}
+p {
+  color: #6c6b6b;
+}
+#any-schedule-text {
+  color: #21b573;
+}
+.head-edit {
+  max-width: 1440px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.head-img-text {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  
+}
+#head-text-area{
+  text-align: start;
+  padding-top: 80px;
+  line-height: 36px;
+}
+
+.button-edit {
+  height: 50px;
+  width: 150px;
+  background-color: #21b573;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.logo-edit img {
+  height: 60px;
+  width: 200px;
+}
+.navbar-edit {
+  color: white;
+}
+.head-edit {
+  background-color: #f0fff0;
+  margin-top: 25px;
+}
+.head-edit li a {
+  margin-right: 10px;
+}
+#sing-in-button {
+  height: 45px;
+  width: 90px;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #21b573;
+}
+
+
+
+.card-edit1{
+margin-top: 0;
+margin-bottom: 100px;
+}
+.card-edit1 >.card{
+    height: 280px;
+    width: 260px;
+    background-color: #f0fff0;
+    margin-right: 15px;
+    border-radius: 10px ;
+    align-items: center; 
+    text-align: center;
+    padding: 45px 20px;
+    border: none;
+    
+
+}
+.card-edit1 >.card:hover{
+    height: 290px;
+    width: 267px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    border-radius: 10px ;
+    align-items: center; 
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 40px rgba(218, 218, 218, 0.884);
+}
+
+.card-edit1 img{ 
+        height: 100px;
+        width: 85px;
+
+}
+
+.card-edit2{
+
+    margin-bottom: 100px;
+    }
+    .card-edit2 >.card{
+        height: 470px;
+        width: 360px;
+        background-color: #f0fff0;
+        margin-right: 10px;
+        padding: 15px 15px;
+        border-radius: 10px;
+        align-items: flex-start; 
+        text-align: start;
+        border: none;
+        box-shadow: 10px 10px 20px rgba(218, 216, 216, 0.726);
+        
+    
+    }
+ 
+    
+    .card-edit2 img{ 
+           width: 100%;
+    
+    }
+    #courses-text{
+        margin-bottom: 100px;
+        font-weight: 600;
+        
+    }
+    #icon-edit1 {
+        width: 20px;
+
+    }
+    #icon-edit2{
+        width: 20px;
+    }
+    .testimonial-box{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    #testimonial-img {
+        width: 10% ;
+        margin-left: 200px;
+    }
+
+    #testimonial-text{
+        padding-right: 100px;
+        margin-right: 100px;
+        padding-left: 50px;
+    }
+.footer-area{
+    background-color: #282531;
+    height: 400px;
+    max-width: 1440px;
+    color: #FFFFFF;
+    padding: 60px 220px;
+}
+.footer-area p,a{
+    color: #ffffff;
+}
+.footer-last-text{
+    margin-top: 130px;
+    
+}
+
+@media(max-width:768px)
+{
+    .footer-area{
+       
+       width: 50%;
+visibility: hidden;
+           
+    }
+   
+     #testimonial-img {
+       visibility: hidden;
+    }
+
+   #testimonial-text{
+visibility: hidden;
+ 
+} 
+.card-edit2 >.card{
+    width: 100%;
+    
+    display: inline;
+}
+.card-edit1 >.card{
+   height: 100%;
+width: 100%;
+ margin-left: 100px;
+}
+}
+@media(min-width:769px) and (max-width:990px){
+ 
+
+  
+ 
+ .card-edit2 >.card{
+     width: 25%;
+     display: inline;
+ }
+ .card-edit1 >.card{
+     width: 82%;
+   margin-left: 60px;
+   display: inline-block;
+ }
+ #courses-text{
+    text-align: center;
+    
+}
+.footer-area{
+       
+    width: 50%;
+visibility: hidden;
+        
+ }
+
+}
+
+
