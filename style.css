@@ -169,6 +169,19 @@ margin-bottom: 100px;
     margin-top: 130px;
     
 }
+.carousel-h1{
+    margin-bottom: 60px;
+}
+
+.slid{
+    height: 320px;
+    width: 700px;
+    margin: auto;
+    margin-top: 65px;
+    padding: 40px 40px;
+    background-color: #f0fff0;
+    color: #21b573;
+}
 
 
 @media(max-width:768px)
